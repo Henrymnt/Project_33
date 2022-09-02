@@ -147,7 +147,7 @@ function drop()
 function drop2()
 {
   rope.break();
-//   con.dettach();
+  con.dettach();
  
   con = null; 
 }
